@@ -1,0 +1,88 @@
+
+/* div .row{
+    box-shadow: 5px 5px rgb(111, 205, 224) , -5px 5px rgb(111, 205, 224);
+    
+} */
+
+
+div{
+    border-radius: 15px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #bebebe,
+                 -5px -5px 10px #ffffff;
+}
+#typing {
+
+    width: 0ch;
+    color: rgb(111, 150, 236);
+    float: left;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 30px;
+    
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 10s steps(50) 1s infinite alternate;
+}
+#typing span{
+color:rgb(232, 142, 17);}
+
+#crow {
+    float: left;
+
+color: rgb(243, 77, 138);
+    font-family: consolas;
+    font-weight:bold;
+    font-size: 40px;
+    animation: crow 0.5s linear 0s infinite;
+}
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 25ch;
+    }
+}
+@keyframes crow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+img{
+    transition: 2s  ease-in-out ;
+    background-size: cover;
+    
+        vertical-align: middle;
+        border-style: none;
+        background-color:  #bebebe;
+    
+   }
+img:hover{
+    transform: scale(.75) rotatex(30deg) rotateY(20deg);
+   
+}
+#words{
+ transition: 2s  ease-in-out ;
+}
+ #words:hover{
+    transform: scale(1.2) rotatex(30deg) rotateY(15deg) ;
+    background:  #bebebe,;
+} 
+
+#bt{
+    text-align: right;
+}
+   #link
+   {
+ font-size: 50px;
+    display: inline;
+    transform: 2s ease-in-out;
+   }
+  
+
